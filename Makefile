@@ -52,7 +52,7 @@ else
 	python manage.py lms xblocks_atlas_pull_module
 endif
 
-pull_translations:  pull_xblock_translations ## pull translations from Transifex
+pull_translations: pull_xblock_translations ## pull translations from Transifex
 	git clean -fdX conf/locale
 	i18n_tool transifex pull
 	i18n_tool extract

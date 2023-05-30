@@ -439,6 +439,17 @@ class XBlockI18nService:
             if path.exists(xblock_locale_path):
                 return xblock_locale_path
 
+    def get_javascript_resource_url(self, xblock_name):
+        lang_code = translation.get_language()
+        if not lang_code:
+            return None
+        text_js = f'public/js/xblock-translations/{xblock_name}/{lang_code}/django.js'
+        country_code = lang_code.split('-')[0]
+        for code in (translation.to_locale(lang_code), lang_code, country_code):
+            if pkg_resources.resource_exists(loader.module_name, text_js.format(lang_code=code)):
+                return text_js.format(lang_code=code)
+        return None
+            
     def __getattr__(self, name):
         name = 'gettext' if name == 'ugettext' else name
         return getattr(self.translator, name)
