@@ -22,6 +22,7 @@ HTTPS = 'off'
 
 CMS_BASE = 'localhost:18010'
 SESSION_COOKIE_NAME = 'studio_sessionid'
+XBLOCK_TRANSLATIONS_DIRECTORY = '/edx/app/edxapp/edx-platform'
 
 ################################ LOGGERS ######################################
 
