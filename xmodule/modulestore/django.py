@@ -379,7 +379,7 @@ class XBlockI18nService:
         """
         self.translator = django.utils.translation
         if block:
-            xblock_domain = 'text'
+            xblock_domain = 'django'
             selected_language = get_language()
 
             xblock_locale_path = self.get_python_locale_directory(block)
@@ -394,7 +394,8 @@ class XBlockI18nService:
                     # Fall back to the default Django translator if the XBlock translator is not found.
                     pass
 
-    def get_python_locale_directory(self, block):
+    @staticmethod
+    def get_python_locale_directory(block):
         """
         Return the XBlock locale directory with support for OEP-58 updated translation infrastructure.
 
@@ -409,17 +410,18 @@ class XBlockI18nService:
         xblock_resource = xblock_class.__module__
 
         if ENABLE_EXTERNAL_XBLOCK_TRANSLATIONS.is_enabled():
-            xblock_module_name = xblock_resource.__name__
+            xblock_module_name = xblock_resource
             xblock_locale_dir = 'conf/xblocks/locale'
             translations_dir = settings.XBLOCK_TRANSLATIONS_DIRECTORY
-            xblock_locale_path = path.join(translations_dir, xblock_locale_dir, xblock_module_name)
+            xblock_locale_path = path.join(translations_dir, xblock_locale_dir, xblock_module_name, 'conf/locale')
         else:
             xblock_locale_dir = 'translations'
             xblock_locale_path = resource_filename(xblock_resource, xblock_locale_dir)
 
         return xblock_locale_path
 
-    def get_javascript_locale_path(self, block):
+    @staticmethod
+    def get_javascript_locale_path(block):
         """
         Return the XBlock compiled javascript i18n path with support for OEP-58 updated translation infrastructure.
 
@@ -430,26 +432,13 @@ class XBlockI18nService:
         selected_language = get_language()
 
         if ENABLE_EXTERNAL_XBLOCK_TRANSLATIONS.is_enabled():
-            xblock_module_name = xblock_resource.__name__
+            xblock_module_name = xblock_resource
             xblock_locale_dir = 'conf/locale/{language}/LC_MESSAGES'.format(language=selected_language)
-
             translations_dir = settings.XBLOCK_TRANSLATIONS_DIRECTORY
             xblock_locale_path = path.join(translations_dir, xblock_module_name, xblock_locale_dir, 'text.js')
-
             if path.exists(xblock_locale_path):
                 return xblock_locale_path
 
-    def get_javascript_resource_url(self, xblock_name):
-        lang_code = translation.get_language()
-        if not lang_code:
-            return None
-        text_js = f'public/js/xblock-translations/{xblock_name}/{lang_code}/django.js'
-        country_code = lang_code.split('-')[0]
-        for code in (translation.to_locale(lang_code), lang_code, country_code):
-            if pkg_resources.resource_exists(loader.module_name, text_js.format(lang_code=code)):
-                return text_js.format(lang_code=code)
-        return None
-            
     def __getattr__(self, name):
         name = 'gettext' if name == 'ugettext' else name
         return getattr(self.translator, name)
