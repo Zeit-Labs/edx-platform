@@ -57,8 +57,16 @@ push_translations: ## push source strings to Transifex for translation
 
 pull_translations:  ## pull translations from Transifex
 	git clean -fdX conf/locale
+ifeq ($(OPENEDX_ATLAS_PULL),)
 	i18n_tool transifex pull
 	i18n_tool extract
+else
+	find conf/locale -mindepth 1 -maxdepth 1 -type d -exec rm -r {} \;
+	atlas pull $(OPENEDX_ATLAS_ARGS) translations/edx-platform/conf/locale:conf/locale
+	# Calling extract_translations in way compatibile with openedx-translations workflow which
+	# ensures having only two translation files in conf/locale/en/LC_MESSAGES directory (django.po and djangojs.po)
+	$(MAKE) IS_OPENEDX_TRANSLATIONS_WORKFLOW=yes extract_translations
+endif
 	i18n_tool dummy
 	i18n_tool generate --verbose 1
 	git clean -fdX conf/locale/rtl
