@@ -65,7 +65,7 @@ else
 	atlas pull $(OPENEDX_ATLAS_ARGS) translations/edx-platform/conf/locale:conf/locale
 	# Calling extract_translations in way compatibile with openedx-translations workflow which
 	# ensures having only two translation files in conf/locale/en/LC_MESSAGES directory (django.po and djangojs.po)
-	$(MAKE) IS_OPENEDX_TRANSLATIONS_WORKFLOW=yes extract_translations
+	python manage.py lms compilemessages -v1
 endif
 	i18n_tool dummy
 	i18n_tool generate --verbose 1
