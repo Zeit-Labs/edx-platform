@@ -67,10 +67,6 @@
     "\n    You will be guided through online proctoring software set up and identity verification.\n  ": "\n    \u00c7evrimi\u00e7i g\u00f6zetim yaz\u0131l\u0131m\u0131 kurulumu ve kimlik do\u011frulamas\u0131 boyunca size rehberlik edilecek.\n  ",
     " ${price} {currency} )": "{price}TL {currency} )",
     " From this point in time, you must follow the <a href=\"%(link_urls.online_proctoring_rules)s\" target=\"_blank\">online proctoring rules</a> to pass the proctoring review for your exam. ": " Bu noktadan itibaren, g\u00f6zetim denetiminden ge\u00e7ebilmek i\u00e7in <a href=\"%(link_urls.online_proctoring_rules)s\" target=\"_blank\">\u00e7evrimi\u00e7i g\u00f6zetimli s\u0131nav kurallar\u0131n\u0131</a> takip etmelisiniz.",
-    " Member": [
-      " \u00dcye",
-      " \u00dcye"
-    ],
     " Your Proctoring Session Has Started ": "G\u00f6zetimli S\u0131nav Oturumunuz Ba\u015flad\u0131",
     " and ": "ve",
     " and {num_of_minutes} minute": " ve {num_of_minutes} dakika",
@@ -96,10 +92,6 @@
     "%(cohort_name)s (%(user_count)s)": "%(cohort_name)s (%(user_count)s)",
     "%(comments_count)s %(span_sr_open)scomments %(span_close)s": "%(comments_count)s %(span_sr_open)s yorum %(span_close)s",
     "%(comments_count)s %(span_sr_open)scomments (%(unread_comments_count)s unread comments)%(span_close)s": "%(comments_count)s %(span_sr_open)s yorum (%(unread_comments_count)s okunmam\u0131\u015f yorum)%(span_close)s",
-    "%(errorCount)s error found in form.": [
-      "Formda %(errorCount)s hata bulundu.",
-      "Formda %(errorCount)s hata bulundu."
-    ],
     "%(field)s can only contain up to %(count)d characters.": "%(field)s en fazla %(count)d karakter i\u00e7erebilir.",
     "%(field)s must have at least %(count)d characters.": "%(field)s en az %(count)d karaktere sahip olmal\u0131d\u0131r.",
     "%(new_item_message)s": "%(new_item_message)s",
@@ -109,51 +101,18 @@
       "%(sel)s / %(cnt)s se\u00e7ildi"
     ],
     "%(type)s Component Template Menu": "%(type)s Bile\u015fen \u015eablon Men\u00fcs\u00fc",
-    "%(value)s hour": [
-      "%(value)s saat",
-      "%(value)s saat"
-    ],
-    "%(value)s minute": [
-      "%(value)s dakika",
-      "%(value)s dakika"
-    ],
-    "%(value)s second": [
-      "%(value)s saniye",
-      "%(value)s saniye"
-    ],
-    "%d day": [
-      "%d g\u00fcn",
-      "%d g\u00fcn"
-    ],
-    "%d minute": [
-      "%d dakika",
-      "%d dakika"
-    ],
-    "%d month": [
-      "%d ay",
-      "%d ay"
-    ],
-    "%d year": [
-      "%d y\u0131l",
-      "%d y\u0131l"
-    ],
     "%s ago": "%s \u00f6nce",
     "%s from now": "\u015eimdiden itibaren %s",
     "(Add signatories for a certificate)": "(Sertifika i\u00e7in imza sahipleri ekle)",
     "(Caption will be displayed when you start playing the video.)": "(Altyaz\u0131 videoyu oynatmaya ba\u015flad\u0131\u011f\u0131n\u0131zda g\u00f6sterilecek.)",
     "(Community TA)": "(Topluluk Asistan\u0131)",
     "(Optional)": "(\u0130ste\u011fe Ba\u011fl\u0131)",
-    "(Read-only)": "(Salt-okunur)",
     "(Required Field)": "(Gerekli Alan)",
     "(Self-paced) Ended {end}": "(Kendi kendine) Bitti {end}",
     "(Self-paced) Ends {end}": "(Kendi kendine) Biti\u015f {end}",
     "(Self-paced) Started {start}": "(Kendi kendine) Ba\u015flad\u0131 {start}",
     "(Self-paced) Starts {start}": "(Kendi kendine) Ba\u015flang\u0131\u00e7 {start}",
     "(Staff)": "(Personel)",
-    "(contains %(student_count)s student)": [
-      "(%(student_count)s \u00f6\u011frenci i\u00e7eriyor)",
-      "(%(student_count)s \u00f6\u011frenci i\u00e7eriyor)"
-    ],
     "(optional)": "(iste\u011fe ba\u011fl\u0131)",
     "(required)": "(gerekli)",
     "(required):": "(gerekli):",
@@ -199,7 +158,7 @@
     "Add": "Ekle",
     "Add Additional Signatory": "Ek \u0130mza Sahibi Ekle",
     "Add Attachment": "Dosya Ekle",
-    "Add Cohort": "Kohort Ekle",
+    "Add Cohort": "Topluluk Ekle",
     "Add Component:": "Bile\u015fen Ekle:",
     "Add Country": "\u00dclke ekle",
     "Add Learners": "\u00d6\u011frenci Ekle",
@@ -292,7 +251,6 @@
     "An error has occurred. Wait a few minutes, and then try again.": "Bir hata olu\u015ftu. Birka\u00e7 dakika bekleyin, ve ondan sonra tekrar deneyin.",
     "An error occurred retrieving your email. Please try again later, and contact technical support if the problem persists.": "E-posta adresinizi al\u0131rken bir hata olu\u015ftu. L\u00fctfen daha sonra tekrar deneyiniz, ve e\u011fer problem devam ederse teknik destek ile ileti\u015fime ge\u00e7iniz.",
     "An error occurred when signing you in to %s.": "%s ortam\u0131nda oturum a\u00e7arken hata olu\u015ftu.",
-    "An error occurred while attempting to retrieve or save the information below. Please try again later.": "A\u015fa\u011f\u0131daki bilgiyi \u00e7ekmeye ya da kaydetmeye \u00e7al\u0131\u015f\u0131rken bir hata ger\u00e7ekle\u015fti. Bir s\u00fcre sonra l\u00fctfen tekrar deneyin.",
     "An error occurred while looking up team membership. Try refreshing the page.": "Tak\u0131m \u00fcyeli\u011fine aran\u0131rken bir hata olu\u015ftu. Sayfay\u0131 yenilemeyi deneyin.",
     "An error occurred while removing the member from the team. Try again.": "Tak\u0131mdan \u00fcyeyi \u00e7\u0131kart\u0131rken bir hata olu\u015ftu. Tekrar deneyin.",
     "An error occurred.": "Bir hata meydana geldi.",
@@ -381,7 +339,6 @@
     "Browse": "G\u00f6z at",
     "Browse recently launched courses and see what's new in your favorite subjects.": "Yeni a\u00e7\u0131lm\u0131\u015f dersleri taray\u0131n ve favori konular\u0131n\u0131z i\u00e7inde yeni ne var g\u00f6r\u00fcnt\u00fcleyin.",
     "Browse recently launched courses and see what\\'s new in your favorite subjects": "Yeni a\u00e7\u0131lm\u0131\u015f dersleri taray\u0131n ve ilginizi \u00e7eken konularda ne yenilikler var g\u00f6r\u00fcnt\u00fcleyin",
-    "Browsing": "G\u00f6z at\u0131l\u0131yor",
     "Bulk Exceptions": "Toplu \u0130stisnalar",
     "Bullet list": "Madde imli liste",
     "Bulleted List (Ctrl+U)": "Noktal\u0131 Liste (Ctrl+U)",
@@ -433,7 +390,7 @@
     "Chapter name and asset_path are both required": "B\u00f6l\u00fcm ad\u0131 ve asset_path gerekli",
     "Chapter name is required": "B\u00f6l\u00fcm ad\u0131 gerekiyor",
     "Chapter {order}": "B\u00f6l\u00fcm {order}",
-    "Check Your Email": "E-postan\u0131z\u0131 kontrol edin",
+    "Check Your Email": "E-postan\u0131z\u0131 Kontrol Edin",
     "Check the highlighted fields below and try again.": "A\u015fa\u011f\u0131daki i\u015faretli alanlar\u0131 kontrol edin ve tekrar deneyin.",
     "Check this box to receive an email digest once a day notifying you about new, unread activity from posts you are following.": "Takip etti\u011finiz g\u00f6nderilerdeki yeni ve okunmam\u0131\u015f etkinlikler hakk\u0131nda g\u00fcnde bir kez etkinlik \u00f6zeti almak i\u00e7in bu kutucu\u011fu i\u015faretleyin.",
     "Check your email account for instructions to reset your password.": "Parola s\u0131f\u0131rlama y\u00f6nergeleri i\u00e7in e-posta hesab\u0131n\u0131z\u0131 kontrol edin.",
@@ -471,7 +428,7 @@
     "Click OK to have your username sent to a 3rd party application.\n\nClick Cancel to return to this page without sending your information.": "Kullan\u0131c\u0131 ad\u0131n\u0131z\u0131 3. parti uygulamaya g\u00f6ndermek i\u00e7in TAMAM'a bas\u0131n.\n\nBilgilerinizi g\u00f6ndermeden bu sayfaya geri d\u00f6nmek i\u00e7in \u0130ptal'e bas\u0131n.",
     "Click on this button to mute or unmute this video or press UP or DOWN buttons to increase or decrease volume level.": "Bu videoyu sessize almak veya sesini a\u00e7mak i\u00e7in bu d\u00fc\u011fmeye t\u0131klay\u0131n, ses seviyesini art\u0131rmak ya da azaltmak i\u00e7in YUKARI veya A\u015eA\u011eI d\u00fc\u011fmelerine bas\u0131n.",
     "Click to add a new %(xblock_type)s": "Yeni bir %(xblock_type)s eklemek i\u00e7in t\u0131klay\u0131n\u0131z",
-    "Click to change": "De\u011fi\u015ftirmek i\u00e7in t\u0131klay\u0131n",
+    "Click to change": "De\u011fi\u015ftirmek i\u00e7in t\u0131klay\u0131n\u0131z",
     "Click to choose all %s at once.": "Bir kerede t\u00fcm %s se\u00e7ilmesi i\u00e7in t\u0131klay\u0131n.",
     "Click to edit": "D\u00fczenlemek i\u00e7in t\u0131kla",
     "Click to remove all chosen %s at once.": "Bir kerede t\u00fcm se\u00e7ilen %s kald\u0131r\u0131lmas\u0131 i\u00e7in t\u0131klay\u0131n.",
@@ -544,10 +501,6 @@
     "Country": "\u00dclke",
     "Country of residence": "\u0130kamet edilen \u00fclke",
     "Country or Region of Residence": "\u0130kamet Edilen \u00dclke ya da B\u00f6lge",
-    "Course": [
-      "Ders",
-      "Dersler"
-    ],
     "Course Content": "Ders \u0130\u00e7eri\u011fi",
     "Course Credit Requirements": "Ders Kredisi Gereklilikleri",
     "Course Discussion Forum": "Ders Tart\u0131\u015fma Forumu",
@@ -561,9 +514,7 @@
     "Course Name": "Ders \u0130smi",
     "Course Number": "Ders Numaras\u0131",
     "Course Number Override": "Ders Numaras\u0131n\u0131 Ge\u00e7ersiz K\u0131l",
-    "Course Number:": "Ders Numaras\u0131:",
     "Course Outline": "Ders Tasla\u011f\u0131",
-    "Course Run:": "Ders Yay\u0131n\u0131:",
     "Course Start": "Ders Ba\u015flang\u0131c\u0131",
     "Course Title": "Ders Ba\u015fl\u0131\u011f\u0131",
     "Course Title Override": "Ders Ba\u015fl\u0131\u011f\u0131n\u0131 Ge\u00e7ersiz K\u0131l",
@@ -575,7 +526,6 @@
     "Create": "Olu\u015ftur",
     "Create Account": "Hesap Olu\u015ftur",
     "Create Re-run": "Yeniden \u00c7al\u0131\u015ft\u0131rma Olu\u015ftur",
-    "Create Support Ticket": "Destek Talebi Olu\u015ftur",
     "Create a New Team": "Yeni Bir Tak\u0131m Olu\u015ftur",
     "Create a content group": "\u0130\u00e7erik grubu yarat",
     "Create a new team if you can't find an existing team to join, or if you would like to learn with friends you know.": "Kat\u0131lacak bir tak\u0131m bulamad\u0131ysan\u0131z, ya da tan\u0131d\u0131\u011f\u0131n\u0131z arkada\u015flar\u0131n\u0131zla \u00f6\u011frenmek istiyorsan\u0131z yeni bir tak\u0131m olu\u015fturun.",
@@ -645,7 +595,6 @@
     "Describe ": "Tan\u0131mla",
     "Description": "A\u00e7\u0131klama",
     "Description of the certificate": "Sertifikan\u0131n a\u00e7\u0131klamas\u0131",
-    "Details": "Ayr\u0131nt\u0131lar",
     "Device with Camera": "Kameral\u0131 Cihaz",
     "Dimensions": "Boyutlar",
     "Disc": "Disk",
@@ -657,6 +606,7 @@
     "Discussion topics in the course are not divided.": "Dersteki tart\u0131\u015fma ba\u015fl\u0131klar\u0131 b\u00f6l\u00fcnmemi\u015f.",
     "Discussions are unified; all learners interact with posts from other learners, regardless of the group they are in.": "Tart\u0131\u015fmalar birle\u015ftirilmi\u015f durumda; t\u00fcm \u00f6\u011frenciler i\u00e7inde olduklar\u0131 gruplardan ba\u011f\u0131ms\u0131z olarak, di\u011fer \u00f6\u011frencilerin g\u00f6nderileriyle etkile\u015fime girebilir.",
     "Discussions enabled": "Tart\u0131\u015fmalar etkinle\u015ftirildi",
+    "Dismiss": "\u0130ptal",
     "Display Name": "G\u00f6r\u00fcnen Ad",
     "Div": "Div",
     "Divide the selected content-specific discussion topics": "Se\u00e7ili i\u00e7erik-odakl\u0131 tart\u0131\u015fma ba\u015fl\u0131klar\u0131n\u0131 b\u00f6l",
@@ -826,6 +776,7 @@
     "Explicitly Hiding from Students": "\u00d6\u011frencilerden A\u00e7\u0131k\u00e7a Gizle",
     "Explore Programs": "Programlar\u0131 Ke\u015ffedin",
     "Explore courses": "Dersleri ke\u015ffet",
+    "Explore subscription options": "Abonelik se\u00e7eneklerini ke\u015ffet",
     "Explore your course!": "E\u011fitiminizi ke\u015ffedin!",
     "Failed Proctoring": "Ba\u015far\u0131s\u0131z G\u00f6zetimli S\u0131nav",
     "Failed to clone rubric": "Dereceli puanlama anahtar\u0131 klonlanamad\u0131",
@@ -859,7 +810,6 @@
     "Find next": "Sonrakini bul",
     "Find previous": "\u00d6ncekini bul",
     "Finish": "Bitir",
-    "Finish later": "Sonra tamamla",
     "First time here?": "\u0130lk kez mi buradas\u0131n\u0131z?",
     "Follow": "Takip et",
     "Follow or unfollow posts": "G\u00f6nderileri takip et veya takipten \u00e7\u0131k",
@@ -874,6 +824,7 @@
     "Formats": "Formatlar",
     "Free text notes": "Serbest metin notlar\u0131",
     "Frequently Asked Questions": "S\u0131k\u00e7a Sorulan Sorular",
+    "From:": "G\u00f6nderen:",
     "Full Name": "Tam \u0130sim",
     "Full Profile": "Tam Profil",
     "Fullscreen": "Tam ekran",
@@ -914,7 +865,6 @@
     "HTML preview of post": "G\u00f6nderinin HTML \u00f6nizlemesi",
     "HTML source code": "HTML kaynak kodu",
     "Have a computer with a functioning webcam": "\u00c7al\u0131\u015fan bir web kameras\u0131 olan bir bilgisayara sahip olun",
-    "Have you ever served on active duty in the U.S. Armed Forces, Reserves, or National Guard?": "Bug\u00fcne dek ABD Ordusu, Yedek Kuvvetler ya da Ulusal Muhaf\u0131zlar'da hizmet ettiniz mi?",
     "Have your valid photo ID (e.g. driver's license or passport) ready": "Ge\u00e7erli foto\u011frafl\u0131 kimli\u011finizi (\u00f6rn. ehliyet veya pasaport) haz\u0131r bulundurun",
     "Header": "\u00dcst bilgi ",
     "Header 1": "\u00dcst bilgi 1",
@@ -1085,7 +1035,7 @@
     "Left": "Sol",
     "Left to right": "Soldan sa\u011fa",
     "Legal name": "Yasal ad",
-    "Less": "Daha Az",
+    "Less": "Az",
     "Library User": "K\u00fct\u00fcphane Kullan\u0131c\u0131s\u0131",
     "License Display": "Lisans Ekran\u0131",
     "License Type": "Lisans Tipi",
@@ -1108,10 +1058,6 @@
     "Load all responses": "B\u00fct\u00fcn cevaplar\u0131 y\u00fckle",
     "Load more": "Daha fazla y\u00fckle",
     "Load next {numResponses} responses": "Sonraki {numResponses} cevap y\u00fckleniyor",
-    "Load next {num_items} result": [
-      "Sonraki {num_items} adet sonucu y\u00fckle",
-      "Sonraki {num_items} adet sonucu y\u00fckle"
-    ],
     "Loading": "Y\u00fckl\u00fcyor...",
     "Loading content": "\u0130\u00e7erik y\u00fckleniyor",
     "Loading data...": "Veri y\u00fckleniyor...",
@@ -1156,7 +1102,8 @@
     "Minimum Completion:": "Minimum Tamamlama:",
     "Minimum Score:": "Minimum Skor:",
     "Module state successfully deleted.": "Mod\u00fcl durumu ba\u015far\u0131yla silindi.",
-    "More": "Daha Fazlas\u0131",
+    "Monthly program subscriptions {emDash} more flexible, more affordable": "Ayl\u0131k program abonelikleri {emDash} daha esnek, daha uygun fiyatl\u0131d\u0131r",
+    "More": "Fazlas\u0131",
     "More opportunities for you": "Sizin i\u00e7in daha fazla f\u0131rsat",
     "More sessions coming soon": "Yeni oturumlar yak\u0131nda geliyor",
     "More sessions coming soon.": "Yeni oturumlar yak\u0131nda geliyor.",
@@ -1179,12 +1126,12 @@
     "Name of the signatory": "\u0130mza sahibinin ad\u0131",
     "Name or short description of the configuration": "Yap\u0131land\u0131rman\u0131n ad\u0131 ya da k\u0131sa a\u00e7\u0131klamas\u0131",
     "Navigate up": "Yukar\u0131 git",
-    "Need help logging in?": "Oturum a\u00e7mak i\u00e7in yard\u0131ma m\u0131 ihtiyac\u0131n\u0131z var?",
     "Need help signing in?": "Giri\u015f yapmak i\u00e7in yard\u0131ma m\u0131 ihtiyac\u0131n\u0131z var?",
     "Need other help signing in?": "Giri\u015f yapmak i\u00e7in farkl\u0131 bir yard\u0131ma m\u0131 ihtiyac\u0131n\u0131z var?",
     "Needs verified certificate ": "Onayl\u0131 sertifika gerekiyor",
     "Never published": "Hi\u00e7 yay\u0131nlanmad\u0131",
     "Never show assessment results": "De\u011ferlendirme sonu\u00e7lar\u0131n\u0131 asla g\u00f6sterme",
+    "New": "Yeni",
     "New %(item_type)s": "Yeni %(item_type)s",
     "New Address": "Yeni Adres",
     "New Password": "Yeni Parola",
@@ -1286,7 +1233,6 @@
     "Organization ": "Kurum",
     "Organization Name": "Kurum Ad\u0131",
     "Organization of the signatory": "\u0130mza sahibinin kurumu",
-    "Organization:": "Kurum:",
     "Other": "Di\u011fer",
     "Other sign-in issues": "Di\u011fer giri\u015f sorunlar\u0131",
     "Overall Score": "Toplam Skor",
@@ -1434,7 +1380,6 @@
     "Questions raise issues that need answers. Discussions share ideas and start conversations. (Required)": "Sorular cevap gerektiren konular\u0131 ileri s\u00fcrer. Tart\u0131\u015fmalar fikirleri payla\u015f\u0131r ve sohbeti ba\u015flat\u0131r. (Gerekli)",
     "Queued": "Kuyru\u011fa Al\u0131nd\u0131",
     "REMAINING COURSES": "KALAN DERSLER",
-    "Re-run Course": "Dersi Yeniden \u00c7al\u0131\u015ft\u0131r",
     "Read More": "Daha Fazlas\u0131 \u0130\u00e7in",
     "Read more": "Daha fazlas\u0131",
     "Ready To Start": "Ba\u015flamaya Haz\u0131r",
@@ -1511,7 +1456,6 @@
     "Return to Export": "D\u0131\u015fa Aktarmaya Geri D\u00f6n",
     "Return to Your Dashboard": "Panele Geri D\u00f6n",
     "Return to all posts": "T\u00fcm g\u00f6nderilere d\u00f6n",
-    "Return to my dashboard": "Panelime geri d\u00f6n",
     "Return to team listing": "Tak\u0131m listesine geri d\u00f6n",
     "Review Policy Exception": "\u0130nceleme Politikas\u0131 \u0130stisnas\u0131",
     "Review Rules": "Kurallar\u0131 G\u00f6zden Ge\u00e7ir",
@@ -1563,13 +1507,8 @@
     "Select a subject for your support request.": "Destek talebiniz i\u00e7in bir konu se\u00e7in.",
     "Select a time allotment for the exam. If it is over 24 hours, type in the amount of time. You can grant individual learners extra time to complete the exam through the Instructor Dashboard.": "S\u0131nav i\u00e7in ayr\u0131lan s\u00fcreyi se\u00e7in. E\u011fer 24 saatten fazlaysa, s\u00fcreyi yazarak girin. E\u011fitmen Paneli arac\u0131l\u0131\u011f\u0131yla belli \u00f6\u011frencilere s\u0131nav\u0131 tamamlamalar\u0131 i\u00e7in daha fazla s\u00fcre tan\u0131mlayabilirsiniz.",
     "Select all": "T\u00fcm\u00fcn\u00fc se\u00e7",
-    "Select current industry": "Bir sekt\u00f6r se\u00e7in",
-    "Select guardian education": "Velinizin e\u011fitim seviyesini se\u00e7in",
     "Select language": "Dil Se\u00e7imi",
-    "Select level of education": "E\u011fitim seviyesi se\u00e7in",
-    "Select military status": "Askerlik durumu se\u00e7in",
     "Select one or more groups:": "Bir ya da daha fazla grup se\u00e7in:",
-    "Select prospective industry": "Hedef sekt\u00f6r\u00fc se\u00e7in",
     "Select the course-wide discussion topics that you want to divide.": "B\u00f6lmek istedi\u011finiz ders-geneli tart\u0131\u015fma konular\u0131n\u0131 se\u00e7in.",
     "Select the time zone for displaying course dates. If you do not specify a time zone, course dates, including assignment deadlines, will be displayed in your browser's local time zone.": "Ders tarihleri g\u00f6sterimi i\u00e7in saat dilimini se\u00e7in. Herhangi bir saat dilimini se\u00e7memeniz durumunda, g\u00f6rev teslimleri d\u00e2hil olmak \u00fczere t\u00fcm ders tarihleri, web taray\u0131c\u0131n\u0131z\u0131n yerel zaman\u0131na g\u00f6re g\u00f6sterilecektir. ",
     "Selected tab": "Se\u00e7ili sekme",
@@ -1594,10 +1533,6 @@
     "Show": "G\u00f6ster",
     "Show All": "Hepsini G\u00f6ster",
     "Show Annotations": "\u0130pu\u00e7lar\u0131n\u0131 g\u00f6ster",
-    "Show Comment (%(num_comments)s)": [
-      "(%(num_comments)s) Yorumu G\u00f6ster",
-      "(%(num_comments)s) Yorumu G\u00f6ster"
-    ],
     "Show Deprecated Settings": "Kald\u0131r\u0131lan Ayarlar\u0131 G\u00f6ster",
     "Show Discussion": "Tart\u0131\u015fmay\u0131 G\u00f6ster",
     "Show Less": "Daha Az G\u00f6ster",
@@ -1613,10 +1548,6 @@
     "Show transcripts ({totalTranscripts})": "Altyaz\u0131lar\u0131 g\u00f6ster ({totalTranscripts})",
     "Show transcripts ({transcriptCount})": "Altyaz\u0131lar\u0131 g\u00f6ster ({transcriptCount})",
     "Showing all responses": "B\u00fct\u00fcn cevaplar\u0131 g\u00f6steriyor",
-    "Showing first response": [
-      "\u0130lk {numResponses} cevap g\u00f6steriliyor",
-      "\u0130lk {numResponses} cevap g\u00f6steriliyor"
-    ],
     "Showing results for \"{searchString}\"": "\"{searchString}\" i\u00e7in sonu\u00e7lar g\u00f6steriliyor",
     "Showing {currentItemRange} out of {totalItemsCount}, filtered by {assetType}, sorted by {sortName} ascending": "{totalItemsCount} sonu\u00e7tan {currentItemRange} aral\u0131\u011f\u0131 g\u00f6steriliyor, {assetType} g\u00f6re filtrelendi, {sortName} bilgisine g\u00f6re artan \u015fekilde s\u0131raland\u0131",
     "Showing {currentItemRange} out of {totalItemsCount}, filtered by {assetType}, sorted by {sortName} descending": "{totalItemsCount} sonu\u00e7tan {currentItemRange} aral\u0131\u011f\u0131 g\u00f6steriliyor, {assetType} g\u00f6re filtrelendi, {sortName} bilgisine g\u00f6re azalan \u015fekilde s\u0131raland\u0131",
@@ -1703,10 +1634,6 @@
     "Submit enrollment change": "Kay\u0131t de\u011fi\u015fimini g\u00f6nder",
     "Submitted": "Girildi",
     "Subscript": "Alt simge",
-    "Subscription trial expires in {remainingDays} day": [
-      "Abonelik deneme s\u00fcresi {remainingDays} g\u00fcn i\u00e7inde sona eriyor",
-      "Abonelik deneme s\u00fcresi {remainingDays} g\u00fcn i\u00e7inde sona eriyor"
-    ],
     "Subsection": "Altb\u00f6l\u00fcm",
     "Subsection Visibility": "Altb\u00f6l\u00fcm G\u00f6r\u00fcn\u00fcrl\u00fc\u011f\u00fc",
     "Subsection is hidden after course end date": "Altb\u00f6l\u00fcm ders biti\u015f tarihinden sonra gizlenecek",
@@ -1776,7 +1703,6 @@
     "Thank you for submitting a request! We appreciate your patience while we work to review your request.": "Bize talebinizi iletti\u011finiz i\u00e7in te\u015fekk\u00fcr ederiz! Talebinizi incelemeye \u00e7al\u0131\u015f\u0131rken ge\u00e7en s\u00fcrede sabr\u0131n\u0131z i\u00e7in te\u015fekk\u00fcr ederiz.",
     "Thank you for submitting your financial assistance application for {course_name}! You can expect a response in 2-4 business days.": "{course_name} i\u00e7in mali yard\u0131m ba\u015fvurunuzu g\u00f6nderdi\u011finiz i\u00e7in te\u015fekk\u00fcrler! 2-4 i\u015f g\u00fcn\u00fc i\u00e7erisinde size geri d\u00f6nece\u011fiz. ",
     "Thank you for submitting your photos. We will review them shortly. You can now sign up for any %(platformName)s course that offers verified certificates. Verification is good for one year. After one year, you must submit photos for verification again.": "Foto\u011fraflar\u0131n\u0131z\u0131 g\u00f6nderdi\u011finiz i\u00e7in te\u015fekk\u00fcr ederiz. K\u0131sa s\u00fcre i\u00e7inde de\u011ferlendirece\u011fiz. \u015eimdi onayl\u0131 sertifika sunan herhangi bir %(platformName)s derse kay\u0131t olabilirsiniz. Do\u011frulama bir y\u0131l i\u00e7indir. Bir y\u0131ldan sonra yeniden do\u011frulama i\u00e7in foto\u011fraflar\u0131n\u0131z\u0131 tekrar g\u00f6ndermelisiniz.",
-    "Thank you! You\u2019re helping make edX better for everyone.": "Te\u015fekk\u00fcrler! edX'i herkes i\u00e7in daha iyi bir hale getirmemize yard\u0131m ediyorsunuz.",
     "Thanks for returning to verify your ID in: {courseName}": "{courseName} dersine kimli\u011finizi do\u011frulama i\u00e7in d\u00f6nd\u00fc\u011f\u00fcn\u00fcz i\u00e7in te\u015fekk\u00fcr ederiz.",
     "The \"{name}\" problem is configured to require a minimum of {min_grades} peer grades, and asks to review {min_graded} peers.": "\"{name}\" problemi, en az {min_grades} akran notu gerektirecek \u015fekilde yap\u0131land\u0131r\u0131ld\u0131 ve {min_graded} akran incelemesi istiyor.",
     "The URL you entered seems to be an email address. Do you want to add the required mailto: prefix?": "Girdi\u011finiz URL bir e-posta adresi gibi g\u00f6r\u00fcn\u00fcyor. Gerekli mailto: \u00f6nekini eklemek ister misiniz?",
@@ -1812,7 +1738,7 @@
     "The following warnings were generated:": "A\u015fa\u011f\u0131daki uyar\u0131lar olu\u015fturuldu:",
     "The general category for this type of assignment, for example, Homework or Midterm Exam. This name is visible to learners.": "Bu g\u00f6rev t\u00fcr\u00fc i\u00e7in belirlenen genel kategori, \u00f6rne\u011fin, Ev \u00d6devi veya Ara S\u0131nav gibi. Bu isim t\u00fcm \u00f6\u011frenciler taraf\u0131ndan g\u00f6r\u00fcnt\u00fclenecek.",
     "The grading process is still running. Refresh the page to see updates.": "Notlama i\u015flemi h\u00e2l\u00e2 devam ediyor. G\u00fcncellemeleri g\u00f6rmek i\u00e7in sayfay\u0131 yenileyin.",
-    "The language that team members primarily use to communicate with each other.": "Tak\u0131m \u00fcyelerinin birbirleri ile ileti\u015fim kurmak i\u00e7in \u00f6ncelikli olarak kulland\u0131\u011f\u0131 dil.",
+    "The language that team members primarily use to communicate with each other.": "Tak\u0131m \u00fcyelerinin birbirleriyle ileti\u015fim kurmak i\u00e7in \u00f6ncelikli olarak kulland\u0131\u011f\u0131 dil.",
     "The language used throughout this site. This site is currently available in a limited number of languages. Changing the value of this field will cause the page to refresh.": "Site genelinde kullan\u0131lan dil. \u015eu an s\u0131n\u0131rl\u0131 say\u0131da dil deste\u011fi mevcuttur. Bu de\u011feri de\u011fi\u015ftirmeniz sayfan\u0131n yenilenmesine yol a\u00e7acak.",
     "The maximum number files that can be saved is ": "Kaydedilebilecek maksimum dosya say\u0131s\u0131 ",
     "The minimum completion percentage must be a whole number between 0 and 100.": "Minimum tamamlama y\u00fczdesi 0 ile 100 aras\u0131nda bir tamsay\u0131 olmal\u0131.",
@@ -1861,10 +1787,6 @@
     "There was an error obtaining email content history for this course.": "Bu ders i\u00e7in e-posta i\u00e7erik ge\u00e7mi\u015fini al\u0131rken hata olu\u015ftu.",
     "There was an error obtaining email task history for this course.": "Bu ders i\u00e7in e-posta g\u00f6rev ge\u00e7mi\u015fini elde edilmesinde hata olmu\u015f.",
     "There was an error retrieving preview results for this catalog. Please check that your query is correct and try again.": "Bu katalog i\u00e7in sonu\u00e7 \u00f6nizlemesini getirirken bir hata ger\u00e7ekle\u015fti. L\u00fctfen sorgunuzun do\u011fru oldu\u011funu kontrol edip tekrar deneyin.",
-    "There was an error when trying to add learners:": [
-      "\u00d6\u011frencileri eklemeye \u00e7al\u0131\u015f\u0131rken bir hata ger\u00e7ekle\u015fti:",
-      "{numErrors} \u00f6\u011frenci bu kohorta eklenemedi:"
-    ],
     "There was an error while importing the new course to our database.": "Yeni dersi veritaban\u0131m\u0131za ta\u015f\u0131rken bir hata olu\u015ftu.",
     "There was an error while importing the new library to our database.": "Yeni k\u00fct\u00fcphaneyi veritaban\u0131m\u0131za aktar\u0131rken bir hata olu\u015ftu.",
     "There was an error while unpacking the file.": "Dosyay\u0131 a\u00e7arken hata olu\u015ftu.",
@@ -1915,6 +1837,7 @@
     "This learner will be removed from the team,allowing another learner to take the available spot.": "Bu \u00f6\u011frenci tak\u0131mdan \u00e7\u0131kar\u0131lacak ve ba\u015fka bir \u00f6\u011frencinin uygun yeri almas\u0131na izin verilecektir.",
     "This link will open in a modal window": "Bu ba\u011flant\u0131 yeni bir kip penceresinde a\u00e7\u0131lacak",
     "This link will open in a new browser window/tab": "Bu ba\u011flant\u0131 taray\u0131c\u0131da yeni bir pencere veya sekmede a\u00e7\u0131lacak",
+    "This may be happening because of an error with our server or your internet connection. Try refreshing the page or making sure you are online.": "Bu durum sunucudaki bir hatadan veya \u0130nternet ba\u011flant\u0131n\u0131zdan kaynaklanm\u0131\u015f olabilir. Sayfay\u0131 yeniden y\u00fcklemeyi deneyin veya \u00e7evrimi\u00e7i oldu\u011funuza emin olun.",
     "This page contains information about orders that you have placed with {platform_name}.": "Bu sayfa {platform_name} i\u00e7inde verdi\u011finiz sipari\u015fleriniz hakk\u0131nda bilgileri i\u00e7erir.",
     "This post could not be closed. Refresh the page and try again.": "Bu g\u00f6nderi kapat\u0131lamaz. Sayfay\u0131 yenileyin ve tekrar deneyin.",
     "This post could not be flagged for abuse. Refresh the page and try again.": "Bu g\u00f6nderiye taciz i\u015faretlemesi yap\u0131lamaz. Sayfay\u0131 yenileyin ve tekrar deneyin.",
@@ -2001,7 +1924,7 @@
     "Turn off transcripts": "Altyaz\u0131lar\u0131 kapat",
     "Turn on closed captioning": "\u0130\u015fitme engelliler i\u00e7in altyaz\u0131y\u0131 a\u00e7",
     "Turn on transcripts": "Altyaz\u0131y\u0131 a\u00e7",
-    "Type": "Tip",
+    "Type": "T\u00fcr",
     "Type in a URL or use the \"Choose File\" button to upload a file from your machine. (e.g. 'http://example.com/img/clouds.jpg')": "URL girerek ya da \"Dosya Se\u00e7\" d\u00fc\u011fmesine t\u0131klayarak bilgisayar\u0131n\u0131zdan bir dosya y\u00fckleyebilirsiniz. (\u00d6rn. 'http://example.com/img/clouds.jpg')",
     "Type into this box to filter down the list of available %s.": "Mevcut %s listesini s\u00fczmek i\u00e7in bu kutu i\u00e7ine yaz\u0131n.",
     "URL": "URL",
@@ -2022,7 +1945,7 @@
     "Unfollow": "Takibi b\u0131rak",
     "Ungraded": "Puanlanmam\u0131\u015f",
     "Ungraded Practice Exam": "Puanlanmam\u0131\u015f Al\u0131\u015ft\u0131rma S\u0131nav\u0131",
-    "Unit": "\u00dcnite",
+    "Unit": "Birim",
     "Unit Access": "\u00dcnite Eri\u015fimi",
     "Unit Name": "\u00dcnite \u0130smi",
     "Unit Visibility": "\u00dcnite G\u00f6r\u00fcn\u00fcrl\u00fc\u011f\u00fc",
@@ -2137,7 +2060,7 @@
     "Video position. Press space to toggle playback": "Video konumu. Oynatma modunu de\u011fi\u015ftirmek i\u00e7in bo\u015fluk tu\u015funa bas\u0131n",
     "Video speed: ": "Video h\u0131z\u0131:",
     "Video transcript": "Video altyaz\u0131s\u0131",
-    "View": "G\u00f6ster",
+    "View": "G\u00f6r\u00fcnt\u00fcle",
     "View Archived Course": "Ar\u015fivlenmi\u015f Dersleri G\u00f6r\u00fcnt\u00fcle",
     "View Cohort": "Toplulu\u011fu G\u00f6r\u00fcnt\u00fcle",
     "View Course": "Derse G\u00f6zat",
@@ -2153,10 +2076,6 @@
     "View my exam": "S\u0131nav\u0131m\u0131 g\u00f6r\u00fcnt\u00fcle",
     "View program": "Program\u0131 g\u00f6ster",
     "View {span_start} {team_name} {span_end}": "G\u00f6r\u00fcnt\u00fcle {span_start} {team_name} {span_end}",
-    "Viewing %s course": [
-      "%s ders g\u00f6r\u00fcnt\u00fcleniyor",
-      "%s ders g\u00f6r\u00fcnt\u00fcleniyor"
-    ],
     "Visibility": "G\u00f6r\u00fcn\u00fcrl\u00fck",
     "Visible to": "G\u00f6r\u00fcnecek ki\u015filer",
     "Visible to Staff Only": "Sadece Personele G\u00f6r\u00fcn\u00fcr",
@@ -2191,13 +2110,12 @@
     "Weight of Total Grade": "Toplam Not A\u011f\u0131rl\u0131\u011f\u0131",
     "We\u2019re sorry to see you go!": "Gitti\u011finizi g\u00f6rmek bizi \u00fcz\u00fcyor!",
     "What You Need for Verification": "Do\u011frulama \u0130\u00e7in Gerekenler",
-    "What can we help you with, {username}?": "Sana nas\u0131l yard\u0131mc\u0131 olabiliriz, {username}?",
     "What does %(platformName)s do with this photo?": "%(platformName)s bu foto\u011fraf ile ne yapar?",
     "What does this mean?": "Ne anlama geliyor?",
     "What if I can't see the camera image, or if I can't see my photo do determine which side is visible?": "Ya kamera g\u00f6r\u00fcnt\u00fcs\u00fcn\u00fc g\u00f6remezsem veya hangi taraf\u0131n g\u00f6r\u00fcn\u00fcr oldu\u011funu belirlemeye \u00e7al\u0131\u015f\u0131rken foto\u011fraf\u0131m\u0131 g\u00f6remezsem?",
     "What if I have difficulty holding my ID in position relative to the camera?": "Kimli\u011fimi kameraya g\u00f6re yerinde tutmakta zorluk \u00e7ekersem ne olur? ",
     "What if I have difficulty holding my head in position relative to the camera?": "Ba\u015f\u0131m\u0131 kameraya g\u00f6re pozisyonda tutmakta zorluk \u00e7ekiyorsam ne olur? ",
-    "What was the total combined income, during the last 12 months, of all members of your family? ": "T\u00fcm aile \u00fcyelerinizin son 12 ayl\u0131k toplam geliri, ne kadard\u0131?",
+    "What's in my clipboard?": "Panomda ne var?",
     "When learners submit an answer to an assessment, they immediately see whether the answer is correct or incorrect, and the score received.": "\u00d6\u011frenciler bir de\u011ferlendirmeye cevap g\u00f6nderdi\u011finde, de\u011ferlendirmedeki cevaplar\u0131n\u0131n do\u011fru ya da yanl\u0131\u015f olup olmad\u0131\u011f\u0131n\u0131 ve ald\u0131klar\u0131 notu hemen g\u00f6rebilirler.",
     "When your face is in position, use the Take Photo button {icon} below to take your photo.": "Y\u00fcz\u00fcn\u00fcz \u00e7er\u00e7eve i\u00e7indeyken, a\u015fa\u011f\u0131daki Foto\u011fraf \u00c7ek {icon} d\u00fc\u011fmesini kullanarak foto\u011fraf\u0131n\u0131z\u0131 \u00e7ekin.",
     "Which timed transcript would you like to use?": "Hangi zamanlanm\u0131\u015f altyaz\u0131y\u0131 kullanmak istersiniz?",
@@ -2205,7 +2123,6 @@
     "Whole words": "Tam s\u00f6zc\u00fckler",
     "Why activate?": "Neden etkinle\u015ftirme ad\u0131m\u0131?",
     "Why does %(platformName)s need my photo?": "Ni\u00e7in %(platformName)s benim foto\u011fraf\u0131ma gerek duyuyor?",
-    "Why does edX collect this information?": "edX neden bu bilgiyi topluyor?",
     "Width": "Geni\u015flik",
     "Will Be Visible To:": "\u015eu Ki\u015filere G\u00f6r\u00fcnecek:",
     "Words: {0}": "Kelimeler: {0}",
@@ -2363,10 +2280,6 @@
     "abbrev. month November\u0004Nov": "Kas",
     "abbrev. month October\u0004Oct": "Eki",
     "abbrev. month September\u0004Sep": "Eyl",
-    "about %d hour": [
-      "yakla\u015f\u0131k %d saat",
-      "yakla\u015f\u0131k %d saat"
-    ],
     "about a minute": "yakla\u015f\u0131k bir dakika",
     "about a month": "yakla\u015f\u0131k bir ay",
     "about a year": "yakla\u015f\u0131k bir sene",
@@ -2407,7 +2320,6 @@
     "enter code here": "kodu buraya girin",
     "enter link description here": "ba\u011flant\u0131 a\u00e7\u0131klamas\u0131n\u0131 buraya girin",
     "error count: ": "hata say\u0131s\u0131: ",
-    "finish later": "sonra tamamla",
     "follow this post": "bu iletiyi takip et",
     "for": "i\u00e7in",
     "group configuration": "grup ayar\u0131",
@@ -2422,7 +2334,6 @@
     "minute": "dakika",
     "minutes": "dakika",
     "name": "isim",
-    "next page": "sonraki sayfa",
     "off": "kapal\u0131",
     "on": "a\u00e7\u0131k",
     "one letter Friday\u0004F": "C",
@@ -2452,11 +2363,8 @@
     "strong text": "kal\u0131n metin",
     "subsection": "altb\u00f6l\u00fcm",
     "team count": "tak\u0131m say\u0131s\u0131",
-    "the more quickly and helpfully we can respond!": "o kadar h\u0131zl\u0131 ve yard\u0131mc\u0131 bir \u015fekilde yan\u0131t verebiliriz!",
-    "there is currently {numVotes} vote": [
-      "\u015fu an {numVotes} oy mevcut",
-      "\u015fu an {numVotes} oy mevcut"
-    ],
+    "toggle chapter %(displayName)s": "b\u00f6l\u00fcm %(displayName)s de\u011fi\u015ftir",
+    "toggle subsection %(displayName)s": "alt b\u00f6l\u00fcm %(displayName)s",
     "unanswered question": "cevaplanmayan soru",
     "unit": "\u00fcnite",
     "unsubmitted": "g\u00f6nderilmedi",
@@ -2473,14 +2381,6 @@
     "{categoryText} in {parentDisplayname}": "{parentDisplayname} i\u00e7inde {categoryText}",
     "{currentCountOpeningTag}{currentCharacterCount}{currentCountClosingTag} of {maxCharacters}": "{currentCountOpeningTag}{currentCharacterCount}{currentCountClosingTag} / {maxCharacters}",
     "{display_name} Settings": "{display_name} Ayarlar\u0131",
-    "{earned}/{possible} point (graded)": [
-      "{possible} \u00fczerinden {earned} puan (notland\u0131r\u0131lan)",
-      "{possible} \u00fczerinden {earned} puan (notland\u0131r\u0131lan)"
-    ],
-    "{earned}/{possible} point (ungraded)": [
-      "{possible} \u00fczerinden {earned} puan (notland\u0131r\u0131lmayan)",
-      "{possible} \u00fczerinden {earned} puan (notland\u0131r\u0131lmayan)"
-    ],
     "{email}": "{email}",
     "{email} is already on the {container} team. Recheck the email address if you want to add a new member.": "{email} zaten {container} tak\u0131m\u0131nda bulunuyor. E\u011fer yeni bir \u00fcye eklemek istiyorsan\u0131z, e-posta adreslerini tekrar kontrol ediniz.",
     "{filename} exceeds maximum size of {maxFileSizeInGB} GB.": "{filename} dosyas\u0131 maksimum boyut olan {maxFileSizeInGB} GB'\u0131 a\u015f\u0131yor.",
@@ -2490,54 +2390,10 @@
     "{label}: {status}": "{label}: {status}",
     "{maxWidth}x{maxHeight} pixels": "{maxWidth}x{maxHeight} piksel",
     "{minutes} {unit}": "{unit} {minutes}",
-    "{numMoved} learner was moved from {prevCohort}": [
-      "{prevCohort} kohortundan {numMoved} \u00f6\u011frenci \u00e7\u0131kar\u0131ld\u0131",
-      "{prevCohort} kohortundan {numMoved} \u00f6\u011frenci \u00e7\u0131kar\u0131ld\u0131"
-    ],
-    "{numPreassigned} learner was pre-assigned for this cohort. This learner will automatically be added to the cohort when they enroll in the course.": [
-      "{numPreassigned} \u00f6\u011frenci bu kohorta \u00f6nceden atanm\u0131\u015f. Bu \u00f6\u011frenci derse kaydoldu\u011funda otomatik olarak kohorta eklenecek.",
-      "{numPreassigned} \u00f6\u011frenci bu kohorta \u00f6nceden atanm\u0131\u015f. Bu \u00f6\u011frenciler derse kaydolduklar\u0131nda otomatik olarak kohorta eklenecekler."
-    ],
-    "{numPresent} learner was already in the cohort": [
-      "{numPresent} \u00f6\u011frenci zaten kohortta",
-      "{numPresent} \u00f6\u011frenci zaten kohorttayd\u0131"
-    ],
-    "{numResponses} other response": [
-      "{numResponses} cevap daha var",
-      "{numResponses} cevap daha var"
-    ],
-    "{numResponses} response": [
-      "{numResponses} cevap",
-      "{numResponses} cevap"
-    ],
-    "{numUsersAdded} learner has been added to this cohort. ": [
-      "Bu kohorta {numUsersAdded} \u00f6\u011frenci eklendi.",
-      "Bu kohorta {numUsersAdded} \u00f6\u011frenci eklendi."
-    ],
-    "{numVotes} Vote": [
-      "{numVotes} Oy",
-      "{numVotes} Oy"
-    ],
     "{num_of_hours} hour": "{num_of_hours} saat",
     "{num_of_hours} hours": "{num_of_hours} saat",
     "{num_of_minutes} minute": "{num_of_minutes} dakika",
     "{num_of_minutes} minutes": "{num_of_minutes} dakika",
-    "{num_points} point possible (graded)": [
-      "{num_points} al\u0131nabilir puan (notland\u0131r\u0131lan)",
-      "{num_points} al\u0131nabilir puan (notland\u0131r\u0131lan)"
-    ],
-    "{num_points} point possible (graded, results hidden)": [
-      "{num_points} al\u0131nabilir puan (notland\u0131r\u0131lan, sonu\u00e7lar gizli)",
-      "{num_points} al\u0131nabilir puan (notland\u0131r\u0131lan, sonu\u00e7lar gizli)"
-    ],
-    "{num_points} point possible (ungraded)": [
-      "{num_points} al\u0131nabilir puan (notland\u0131r\u0131lmayan)",
-      "{num_points} al\u0131nabilir puan (notland\u0131r\u0131lmayan)"
-    ],
-    "{num_points} point possible (ungraded, results hidden)": [
-      "{num_points} al\u0131nabilir puan (notland\u0131r\u0131lmayan, sonu\u00e7lar gizli)",
-      "{num_points} al\u0131nabilir puan (notland\u0131r\u0131lmayan, sonu\u00e7lar gizli)"
-    ],
     "{organization}\\'s logo": "{organization} logosu",
     "{paragraphStart}You entered {boldStart}{email}{boldEnd}. If this email address is associated with your {platform_name} account, we will send a message with password recovery instructions to this email address.{paragraphEnd}{paragraphStart}If you do not receive a password reset message after 1 minute, verify that you entered the correct email address, or check your spam folder.{paragraphEnd}{paragraphStart}If you need further assistance, {anchorStart}contact technical support{anchorEnd}.{paragraphEnd}": "{paragraphStart}{boldStart}{email}{boldEnd} adresini girdiniz. E\u011fer bu e-posta adresi {platform_name} hesab\u0131n\u0131zla ili\u015fkiliyse, size parola s\u0131f\u0131rlamayla ilgili y\u00f6nergeleri bu adrese g\u00f6nderece\u011fiz.{paragraphEnd}{paragraphStart}E\u011fer parola s\u0131f\u0131rlama iletisini 1 dakika i\u00e7inde almad\u0131ysan\u0131z, do\u011fru e-posta adresini girdi\u011finizden emin olun ve posta kutunuzun spam/\u00e7\u00f6p dizinini kontrol edin.{paragraphEnd}{paragraphStart}Daha fazla yard\u0131m i\u00e7in l\u00fctfen {anchorStart}teknik destek{anchorEnd} ekibiyle ileti\u015fime ge\u00e7in.{paragraphEnd}",
     "{paragraph}=p;{preformatted}=pre;{heading3}=h3;{heading4}=h4;{heading5}=h5;{heading6}=h6": "{paragraph}=p;{preformatted}=pre;{heading3}=h3;{heading4}=h4;{heading5}=h5;{heading6}=h6",
@@ -2549,15 +2405,7 @@
     "{sessionDates} - Currently Selected": "{sessionDates} - Se\u00e7ilen Oturum",
     "{start_strong}{total}{end_strong} words submitted in total.": "Toplamda {start_strong}{total}{end_strong} kelime g\u00f6nderildi.",
     "{strongStart}Warning: Account deletion is permanent.{strongEnd} Please read the above carefully before proceeding. This is an irreversible action, and {strongStart}you will no longer be able to use the same email on {platformName}.{strongEnd}": "{strongStart}Uyar\u0131: Hesap silme i\u015flemi kal\u0131c\u0131d\u0131r.{strongEnd} L\u00fctfen i\u015fleme devam etmeden \u00f6nce yukar\u0131da yaz\u0131lanlar\u0131 dikkatle okuyun. Bu bir geri d\u00f6nd\u00fcr\u00fclemez i\u015flemdir, ve {strongStart}{platformName} platformunda bu e-posta hesab\u0131n\u0131 bir daha kullanamazs\u0131n\u0131z.{strongEnd}",
-    "{team_count} Team": [
-      "{team_count} Tak\u0131m",
-      "{team_count} Tak\u0131m"
-    ],
     "{totalItems} total": "toplam {totalItems}",
-    "{total_results} result found for \"{search_term}\"": [
-      "\"{search_term}\" i\u00e7in {total_results} sonu\u00e7 bulundu",
-      "\"{search_term}\" i\u00e7in {total_results} sonu\u00e7 bulundu"
-    ],
     "{transcriptClientTitle}_{transcriptLanguageCode}.{fileExtension}": "{transcriptClientTitle}_{transcriptLanguageCode}.{fileExtension}",
     "{type} Progress": "{type} \u0130lerleme",
     "{unread_comments_count} new": "{unread_comments_count} yeni",

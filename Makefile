@@ -63,8 +63,6 @@ ifeq ($(OPENEDX_ATLAS_PULL),)
 else
 	find conf/locale -mindepth 1 -maxdepth 1 -type d -exec rm -r {} \;
 	atlas pull $(OPENEDX_ATLAS_ARGS) translations/edx-platform/conf/locale:conf/locale
-	# Calling extract_translations in way compatibile with openedx-translations workflow which
-	# ensures having only two translation files in conf/locale/en/LC_MESSAGES directory (django.po and djangojs.po)
 	python manage.py lms compilemessages -v1
 endif
 	i18n_tool dummy
